@@ -1,0 +1,440 @@
+.main-container {
+    height: auto;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav-mid,
+.nav-bottom {
+    display: none;
+}
+
+.nav-top .main-logo-d {
+    display: none;
+}
+
+.central-dash {
+    padding:15px;
+    overflow-y: hidden;
+    max-width: inherit;
+    height: auto;
+    margin-top: 6.5rem;
+}
+
+.right-dash {
+    overflow-y: hidden;
+    max-width: inherit;
+    height: auto;
+}
+
+.nav-bar .nav-mid-child {
+    width: 100%;
+}
+
+.campaign-card-group .card-deck-test {
+    flex-direction: row;
+}
+
+.central-dash-top-btn {
+    justify-content: space-around;
+}
+
+.campaign-card-group .card-deck-test .campaign-card {
+    margin-bottom: 0.75rem;
+}
+
+.central-dash-items h5 {
+   text-align: center;
+}
+
+.weekly-insight-heading .weekly-insight-details {
+    display: none;
+}
+
+.no-desktop {
+    display: flex;
+    margin: auto;
+    font-weight: 600;
+    color:#75a2f3cf;
+    text-decoration: none;
+}
+
+.weekly-insight-heading .weekly-insight-subheading h5 {
+    margin: 2.5rem 0;
+}
+
+.weekly-insight-chart {
+    flex-direction: column;
+}
+
+.weekly-insight-chart img {
+    border-radius: 10px;
+}
+
+.weekly-insight-image {
+    height: 150px;
+}
+
+.weekly-insight-contents {
+    margin-top: 1rem;
+}
+
+.weekly-insight-campaigns {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.new-leads-heading {
+    flex-direction: column;
+}
+
+.new-leads-subheading {
+    margin:2.5rem 0;
+}
+
+.lead-table .table-desktop {
+    display: none;
+}
+
+.lead-table .table th,
+.lead-table .table td {
+    padding: 1rem;
+}
+
+.lead-table .accordion .card-header a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin:0.5rem;
+}
+
+.card-margin {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* .card-border {
+    border-radius: 15px;
+} */
+
+.card-margin:hover {
+    background-color: #0c5bdf;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-lead-name-margin{
+    margin-left: 3rem;
+}
+
+.lead-name {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.lead-details-mobile {
+    background-color: #6cabec;
+}
+
+.lead-no-mobile,
+.lead-email-mobile,
+.lead-date-mobile,
+.lead-status-mobile,
+.lead-delete-mobile {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 1rem;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.statistic-card-subcontent {
+    flex-direction: column;
+}
+
+.upgrade-plan {
+    width: 80%;
+}
+
+.upgrade-plan img {
+    margin: auto;
+}
+
+.nav-bar {
+    height: auto;
+}
+
+/* Side Nav */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ffffff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    font-size: 36px;
+    padding: 1rem 0 1rem 1rem;
+    margin-left: 1rem;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .nav-top {
+      display: flex;
+      margin: 0;
+  }
+
+  .nav-top img {
+    width:60%; 
+    margin:1rem;
+  }
+
+  .nav-top a {
+    color: #5d5dea;
+    text-decoration: none;
+}
+
+.nav-top {
+    position: absolute;
+    top:0;
+    padding: 0rem 0.5rem 0 0.5rem;
+}
+
+.nav-top .main-logo-d {
+    display: none;
+}
+
+.nav-top .main-logo-m img {
+    width: 10rem;
+    height: 4.5rem
+}
+
+.nav-top .open-nav-btn {
+    margin: auto 2rem auto 10rem;
+}
+
+.nav-top .open-nav-btn i {
+    font-size: 3.5rem;
+}
+
+.nav-top .logo-name-t img {
+    height: 4.5rem;
+    width: 20rem;
+}
+
+.nav-bar .nav-mid .nav-mid-child h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+    color:#156de1;
+}
+
+.nav-bar .nav-mid .nav-mid-child h6 {
+    margin-top: 2rem;
+    font-size: 12px;
+    color: #abb5e2;
+}
+
+.nav-bottom {
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.nav-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bottom .nav-bottom-contents {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 0.5rem;
+}
+
+.nav-bottom-contents img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.nav-bottom-contents-text h6, p {
+    margin-bottom: 0;
+}
+
+.nav-bottom-contents-text h6 {
+    margin-top: 0.2rem;
+}
+
+.nav-bottom button {
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+
+
+.nav-bar .nav-mid-child {
+    position: absolute;
+    top: 150px;
+    bottom: 200px;
+    margin-left: 0.5rem;
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 50%;
+    width:85%
+}
+
+.nav-bar .nav-mid-child h6{
+    margin-top: 0;
+}
+
+.nav-mid .nav-mid-child ul li{
+    list-style: none;
+    margin-top:0.75rem;
+    margin-bottom:0.75rem;
+    font-size: 11px;
+}
+
+.nav-mid .nav-mid-child ul li i {
+    margin-right: 0.75rem;
+}
+
+.nav-mid .nav-mid-child ul li a {
+    color: #2a70efcf;
+}
+
+.nav-mid .nav-mid-child ul li a:hover {
+    color: #1e68ef;
+    text-decoration: none;
+}
+
+/* Active class for menu */
+
+.active-menu {
+    border-right: 3px solid;
+    border-color: #156de1;
+}
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar:horizontal {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2a70efcf; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a70efcf; 
+  }
+
+  .side-nav-top {
+    position: absolute;
+    top: 0;
+    display: flex;
+  }
+
+  .side-nav-top .side-nav-logo a {
+      padding: 0;
+  }
+
+  .side-nav-top .side-nav-logo img {
+      margin: 1rem;
+      width: auto;
+  }
+
+  .sidenav .nav-mid-child {
+    top: 115px;
+    width: 94%;
+    height: 60%;
+  }
+
+  .sidenav .nav-mid-child li {
+      list-style: none;
+      margin-top:0.25rem;
+      margin-bottom:0.25rem;
+  }
+
+  .sidenav .nav-mid-child li a {
+      font-size: 1rem;
+      color: #2a70efcf;
+  }
+
+  .sidenav .nav-mid-child ul li i {
+    margin-right: 0.75rem; 
+  }
+
+  .sidenav .nav-mid-child ul li a:hover {
+    color: #1e68ef;
+    text-decoration: none;
+}
+
+.sidenav .nav-mid-child h6{
+    margin-top: 0;
+}
+
+.sidenav .nav-bottom-contents-text {
+    margin: auto 0.2rem;
+}
+
+.sidenav .nav-mid-child h5 {
+    color:#156de1;
+    margin-bottom: 2.5rem;
+}
+
+.sidenav .nav-mid-child h6 {
+    color:#abb5e2;
+}

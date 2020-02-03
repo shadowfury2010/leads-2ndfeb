@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Builderslead - Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a50ca30326.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="screen and (max-width:500px)" href="css/mobile.css">
+        <link rel="stylesheet" media="screen and (min-width:501px) and (max-width:1024px)" href="css/tablet.css">
+    </head>
+    <body>
+     <!-- Main container    -->
+     <div class="container-fluid main-container row">
+        <!-- Left nav bar -->
+        <nav class="nav-bar col-sm-2">
+                <div class="sub-nav nav-top navbar-brand">
+                  <div class="main-logo-d" style="flex: 6;"><a href="index.html"><img src="img/logo1.jpg" alt="logo.jpg"></a></div>
+                  <div class="main-logo-m" style="flex: 6;"><a href="index.html"><img style="height: 3.5rem;" src="img/Builder Manager-logo-m.jpg" alt="logo.jpg"></a></div>
+                  <div class="logo-name-t" style="flex: 6;"><a href="index.html"><img style="height: 3.5rem;" src="img/logo-name-2.jpg" alt="logoname.jpg"></a></div>
+                  <div id="mySidenav" class="sidenav">
+                      <div class="side-nav-top">
+                        <div class="side-nav-logo">
+                          <a href="index.html"><img src="img/logo1.jpg" alt="logo.jpg"></a>
+                        </div>
+                        <div class="side-nav-close">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="far fa-window-close" style="color: #156de1;"></i></a>
+                        </div>
+                      </div>
+                      <div class="sub-nav nav-mid-child">
+                          <h5 class="active-menu"><i class="fas fa-bars" style="margin-right: 0.75rem;"></i> <span class="ter-heading">Dashboard</span></h5>
+                          <h6 >Dashboard</h6 >
+                          <ul>
+                          <li><a href="#campaigns"><i class="fas fa-th-list"></i> Campaings</a></li>
+                          <li><a href="#leads.html"><i class="fas fa-filter"></i> Leads</a></li>
+                          <li><a href="#Contacted"><i class="far fa-check-square"></i> Contacted</a></li>
+                          <li><a href="#follow-up"><i class="fas fa-envelope-open-text"></i> Follow Up</a></li>
+                          <li><a href="#pending"><i class="fas fa-history"></i> Pending</a></li>
+                          <li><a href="#closed"><i class="fas fa-check-double"></i> Closed</a></li>
+                          </ul>
+                          <h6>Others</h6>
+                          <ul>
+                          <li><a href="#calender"><i class="far fa-calendar-alt"></i> Calender</a></li>
+                          <li><a href="#users"><i class="fas fa-users"></i> Users</a></li>
+                          <li><a href="#profile"><i class="far fa-user-circle"></i> Profile</a></li>
+                          <li><a href="#help"><i class="far fa-question-circle"></i> Help</a></li>
+                          </ul>        
+                      </div>
+                  <!-- </div> -->
+                  <div class="sub-nav nav-bottom">
+                    <div class="nav-bottom-contents">
+                        <img src="img/building.jpg" alt="building.jpg">
+                        <div class="nav-bottom-contents-text">
+                            <p style="font-size: small; font-weight: bold; color: #156de1;">The Grand by Hyatt</p>
+                            <p style="font-size: 12px; color: #abb5e2;">MANAGER</p>
+                        </div>
+                    </div>
+                    <!-- Accent-colored raised button with ripple -->
+                    <button style="background-color:#ff9400;font-size: 10px;font-weight: bold;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    Signout
+                    </button>
+                  </div>
+
+                </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <div id="nav-button" class="open-nav-btn" style="flex:1;"><span onclick="openNav()"><i style="color: #007bff;" class="fas fa-bars"></i></span></div>
+                </div>
+                <div class="nav-mid"> 
+                    <div class="sub-nav nav-mid-child">
+                        <h5 class="active-menu"><i class="fas fa-bars" style="margin-right: 0.75rem;"></i> <span class="ter-heading">Dashboard</span></h5>
+                        <h6 >Dashboard</h6 >
+                        <ul>
+                        <li><a href="#campaigns"><i class="fas fa-th-list"></i> Campaings</a></li>
+                        <li><a href="leads.html"><i class="fas fa-filter"></i> Leads</a></li>
+                        <li><a href="#Contacted"><i class="far fa-check-square"></i> Contacted</a></li>
+                        <li><a href="#follow-up"><i class="fas fa-envelope-open-text"></i> Follow Up</a></li>
+                        <li><a href="#pending"><i class="fas fa-history"></i> Pending</a></li>
+                        <li><a href="#closed"><i class="fas fa-check-double"></i> Closed</a></li>
+                        </ul>
+                        <h6>Others</h6>
+                        <ul>
+                        <li><a href="#calender"><i class="far fa-calendar-alt"></i> Calender</a></li>
+                        <li><a href="#users"><i class="fas fa-users"></i> Users</a></li>
+                        <li><a href="#profile"><i class="far fa-user-circle"></i> Profile</a></li>
+                        <li><a href="#help"><i class="far fa-question-circle"></i> Help</a></li>
+                        </ul>        
+                    </div>
+                </div>
+                <div class="sub-nav nav-bottom">
+                  <div class="nav-bottom-contents">
+                      <img src="img/building.jpg" alt="building.jpg">
+                      <div class="nav-bottom-contents-text">
+                          <p style="font-size: small; font-weight: bold; color: #156de1;">The Grand by Hyatt</p>
+                          <p style="font-size: smaller; color: #abb5e2;">MANAGER</p>
+                      </div>
+                  </div>
+                  <!-- Accent-colored raised button with ripple -->
+                  <button style="background-color:#ff9400;font-size: 10px;font-weight: bold;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                  Signout
+                  </button>
+              </div>
+            </nav>
+        <!-- left nav bar ends -->
+        <!-- middle dashboard -->
+        <div class="central-dash col-sm-7">
+          <div id="overlay" onclick="closeNav()"></div>
+            <!-- top buttons start -->
+            <div class="central-dash-top-btn central-dash-items">
+                <div><button style="background-color:#ff9400; font-size: 10px; font-weight: bold; border-radius: 100px; height: 40px;" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                  <i class="far fa-calendar-alt" style="font-size: 20px;"></i>
+              </button></div>
+                <div>
+                  <button style="background-color:#ff9400; font-size: 12px; font-weight: 600; height: 40px; margin-left: 1.5rem;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <i class="fas fa-plus-circle" style="font-size: 15px; margin-right:10px; vertical-align: inherit;"></i> <span style="vertical-align:middle; margin-right: 10px; font-weight: 600;">Create Campaign</span> 
+                </button>
+                </div>
+                
+            </div>
+            <!-- top buttons ends -->
+            <!-- Active Campaign starts -->
+            <div class="active-campaign central-dash-items">
+                <h5 class="sub-heading" id="campaigns"> Active Campaign</h5>
+                <!-- campaign cards starts -->
+                <div class="campaign-card-group ">
+                    <div class="card-deck-test row">
+                      <div class="campaign-card col-md-4">
+                        <div class="date"><span style="text-align: right;"><i class="fas fa-history"></i>30th Aug</span></div>
+                        <div class="card text-white active-card shadow">
+                                <div class="card-header">Total Leads Received <span style="float: right; color: #fff;"><i class="fas fa-arrow-right"></i></span></div>
+                                <div class="card-body">
+                                  <h3 class="card-title">642</h3>
+                                </div>
+                                <div class="card-footer"> 
+                                  <h6>Campaign Name</h6>
+                                  <p>The Grand By Hyatt Campaign</p>
+                                </div> 
+                          </div>
+                      </div>
+                          <div class="campaign-card col-md-4">
+                            <div class="date"><span style="text-align: right;"><i class="fas fa-history"></i>30th Aug</span></div>
+                            <div class="card shadow card-2" >
+                              <div class="card-header">Total Leads Received <span style="float: right;"><i class="fas fa-arrow-right"></i></spanstyle="float: right;"></div>
+                              <div class="card-body">
+                                <h3 class="card-title">642</h3>
+                              </div>
+                                <div class="card-footer"> 
+                                  <h6>Campaign Name</h6>
+                                  <p>The Grand By Hyatt Campaign</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="campaign-card col-md-4">
+                            <div class="date"><span style="text-align: right;"><i class="fas fa-history"></i>30th Aug</span></div>
+                            <div class="card shadow card-3" >
+                              <div class="card-header">Total Leads Received <span style="float: right;"><i class="fas fa-arrow-right"></i></span></div>
+                              <div class="card-body">
+                                <h3 class="card-title">642</h3>
+                              </div>
+                                <div class="card-footer"> 
+                                  <h6>Campaign Name</h6>
+                                  <p>The Grand By Hyatt Campaign</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <!-- campaign cards end -->
+            </div>
+            <!-- Active Campaign starts -->
+            <!-- Weekly Insights Starts -->
+            <div class="weekly-insight central-dash-items">
+              <div class="weekly-insight-heading">
+                <div class="weekly-insight-subheading"><h5 class="sub-heading">Weekly Insights</h5></div>
+                <div class="weekly-insight-details no-mobile"><a>tap for details</a></div>
+                <div class="no-desktop"><a><i class="fas fa-ellipsis-v"></i></a></div>
+              </div>
+              <div class="weekly-insight-chart shadow">
+                <div class="weekly-insight-image">
+                  <img src="img/weekly-insights-img.jpg" style="width: 100%; height: 100%;" alt="weekly-insights.jpg">
+                </div>  
+                <div class="weekly-insight-contents">
+                  <div class="weekly-insight-campaigns">
+                   <div class="test-campaign-text">
+                    <div><i class="fas fa-minus" style="color: #e87a09;"></i></div>
+                    <div class="test-campaign-Name">Campaign Name</div>
+                   </div>
+                    <p class="campaign-name">The Grand By Hyatt Campaign</p>
+                  </div>
+                  <div class="weekly-insight-campaigns">
+                    <div class="test-campaign-text">
+                     <div><i class="fas fa-minus" style="color: #0965b3;"></i></div>
+                     <div class="test-campaign-Name">Campaign Name</div>
+                    </div>
+                     <p class="campaign-name">The Grand By Hyatt Campaign</p>
+                  </div>
+                  <div class="weekly-insight-campaigns">
+                    <div class="test-campaign-text">
+                     <div><i class="fas fa-minus" style="color: #86430a;"></i></div>
+                     <div class="test-campaign-Name">Campaign Name</div>
+                    </div>
+                     <p class="campaign-name">The Grand By Hyatt Campaign</p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+            <!-- Weekly Insights Ends -->
+            <!-- New Leads Start -->
+            <div class="new-leads central-dash-items">
+                <div class="new-leads-heading">
+                    <div class="new-leads-subheading">
+                        <h5 class="sub-heading"> New Leads</h5>
+                    </div>
+                    <div class="weekly-insights-subheading">
+                      <div class="dropdown campaign-dropdown new-leads-dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Campaign Name
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                    <div class="new-leads-button">   
+                        <a>View All...</a>
+                    </div> 
+                    </div> 
+                </div>
+                <!-- lead table starts -->
+                <div class="lead-table">
+                    <table class="table table-desktop">
+                        <tbody>
+                          <tr>
+                            <th scope="row"><img src="img/prof1.jpg" alt="prof1.jpg"></th>
+                            <td class="lead-name">Mark Dark</td>
+                            <td class="lead-no">1234567890</td>
+                            <td class="lead-email">mark@abc.com</td>
+                            <td class="lead-date">02/20/2020</td>
+                            <td class="lead-history"><p><i class="far fa-check-circle"></i>  <i class="fas fa-history"> </i></p></td>
+                            <td class="lead-delete"><i class="fas fa-trash-alt"></i></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><img src="img/prof3.jpg" alt="prof1.jpg"></th>
+                            <td class="lead-name">Larry Parry</td>
+                            <td class="lead-no">1234567890</td>
+                            <td class="lead-email">larry@abc.com</td>
+                            <td class="lead-date">02/20/2020</td>
+                            <td class="lead-history"><i class="far fa-check-circle"></i> <i class="fas fa-history"></i></td>
+                            <td class="lead-delete"><i class="fas fa-trash-alt"></i></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><img src="img/prof2.jpg" alt="prof1.jpg"></th>
+                            <td class="lead-name">Diana Maina</td>
+                            <td class="lead-no">1234567890</td>
+                            <td class="lead-email">diana@abc.com</td>
+                            <td class="lead-date">02/20/2020</td>
+                            <td class="lead-history"><i class="far fa-check-circle"></i> <i class="fas fa-history"></i></td>
+                            <td class="lead-delete"><i class="fas fa-trash-alt"></i></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><img src="img/prof4.jpg" alt="prof1.jpg"></th>
+                            <td class="lead-name">Tina Lena</td>
+                            <td class="lead-no">1234567890</td>
+                            <td class="lead-email">diana@abc.com</td>
+                            <td class="lead-date">02/20/2020</td>
+                            <td class="lead-history"><i class="far fa-check-circle"></i> <i class="fas fa-history"></i></td>
+                            <td class="lead-delete"><i class="fas fa-trash-alt"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <!-- Mobile version table -->
+                      <table class="table table-mobile">
+                        <!-- test collapse starts -->
+                        <div class="accordion" id="accordionExample">
+                          <div class="card shadow card-margin" style="border-radius: 15px;" type="button" data-toggle="collapse" data-target="#collapseOne">
+                            <div class="card-header" id="headingOne">
+                                <a class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <img src="img/prof1.jpg" alt="prof1.jpg">
+                                </a>
+                                <a class="btn btn-link card-lead-name-margin" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Mark Dark
+                                </a>
+                            </div>
+                        
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="card-body lead-details-mobile">
+                                <div class="lead-no-mobile ">Phone - 1234567890</div>
+                                <div class="lead-email-mobile">Email - Mark@abc.com</div>
+                                <div class="lead-date-mobile">Campaign started on - 02/20/2020</div>
+                                <div class="lead-status-mobile">Status - <i class="far fa-check-circle"></i></div>
+                                <div class="lead-delete-mobile">Delete - <i class="fas fa-trash-alt"></i></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card shadow card-margin" style="border-radius: 15px;" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                            <div class="card-header" id="headingTwo">
+                                <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  <img src="img/prof3.jpg" alt="prof1.jpg">
+                                </a>
+                                <a class="btn btn-link collapsed card-lead-name-margin" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Larry Parry
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                              <div class="card-body lead-details-mobile">
+                                <div class="lead-no-mobile ">Phone - 1234567890</div>
+                                <div class="lead-email-mobile">Email - larry@abc.com</div>
+                                <div class="lead-date-mobile">Campaign started on - 02/20/2020</div>
+                                <div class="lead-status-mobile">Status - <i class="far fa-check-circle"></i></div>
+                                <div class="lead-delete-mobile">Delete - <i class="fas fa-trash-alt"></i></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card shadow card-margin" style="border-radius: 15px;" type="button" data-toggle="collapse" data-target="#collapseThree">
+                            <div class="card-header" id="headingThree">
+                              <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <img src="img/prof2.jpg" alt="prof1.jpg">
+                              </a>
+                              <a class="btn btn-link collapsed card-lead-name-margin" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Daina Maina
+                              </a>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                              <div class="card-body lead-details-mobile">
+                                <div class="lead-no-mobile ">Phone - 1234567890</div>
+                                <div class="lead-email-mobile">Email - daina@abc.com</div>
+                                <div class="lead-date-mobile">Campaign started on - 02/20/2020</div>
+                                <div class="lead-status-mobile">Status - <i class="far fa-check-circle"></i></div>
+                                <div class="lead-delete-mobile">Delete - <i class="fas fa-trash-alt"></i></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card shadow card-margin" style="border-radius: 15px;" type="button" data-toggle="collapse" data-target="#collapseFour">
+                            <div class="card-header" id="headingFour">
+                                <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  <img src="img/prof4.jpg" alt="prof1.jpg">
+                                </a>
+                                <a class="btn btn-link collapsed card-lead-name-margin" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  Tina Lena
+                                </a>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                              <div class="card-body lead-details-mobile">
+                                <div class="lead-no-mobile ">Phone - 1234567890</div>
+                                <div class="lead-email-mobile">Email - tina@abc.com</div>
+                                <div class="lead-date-mobile">Campaign started on - 02/20/2020</div>
+                                <div class="lead-status-mobile">Status - <i class="far fa-check-circle"></i></div>
+                                <div class="lead-delete-mobile">Delete - <i class="fas fa-trash-alt"></i></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- test collapse ends -->
+                      </table>
+                </div>
+                <!-- lead table ends -->
+            </div>
+            <!-- New Leads Ends -->
+        </div>
+        <!-- middle dashboard ends -->
+        <!-- right dashboard -->
+        <div class="right-dash col-sm-3">
+          <div id="overlay" onclick="closeNav()"></div>
+            <!-- Statistics Start -->
+            <div class="statistics">
+
+                <div class="statistic-heading">
+                    <div class="statistic-heading-subheading">
+                        <h5 class="sub-heading">Statistics</h5>
+                    </div>
+                    <div class="dropdown campaign-dropdown statistic-heading-dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Campaign Name
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistics-cards">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="statistic-card-main-body">
+                                <p class="text-muted">Total Leads</p>
+                                <h5 class="card-title">Contacted</h5>
+                            </div>
+                            <div class="statistic-card-subcontent set-size charts-container">
+                              <div class="pie-wrapper progress-45 style-2">
+                                <span class="label">45</span>
+                                <div class="pie">
+                                  <div class="left-side half-circle"></div>
+                                  <div class="right-side half-circle"></div>
+                                </div>
+                                <div class="shadow"></div>
+                              </div>
+                              <div class="statistic-card-yesterday">  
+                                  <p class="text-muted">Yesterday</p>
+                              </div>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="statistic-card-main-body">
+                                <p class="text-muted">Total Leads</p>
+                                <h5 class="card-title">Follow Up</h5>
+                            </div>
+                            <div class="statistic-card-subcontent set-size charts-container">
+                              <div class="pie-wrapper progress-75 style-2">
+                                <span class="label">120</span>
+                                <div class="pie">
+                                  <div class="left-side half-circle"></div>
+                                  <div class="right-side half-circle"></div>
+                                </div>
+                                <div class="shadow"></div>
+                              </div>
+                              <div class="statistic-card-yesterday">  
+                                  <p class="text-muted">Yesterday</p>
+                              </div>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="statistic-card-main-body">
+                                <p class="text-muted">Total Leads</p>
+                                <h5 class="card-title">Pending</h5>
+                            </div>
+                            <div class="statistic-card-subcontent set-size charts-container">
+                              <div class="pie-wrapper progress-30 style-2">
+                                <span class="label">12</span>
+                                <div class="pie">
+                                  <div class="left-side half-circle"></div>
+                                  <div class="right-side half-circle"></div>
+                                </div>
+                                <div class="shadow"></div>
+                              </div>
+                              <div class="statistic-card-yesterday">  
+                                  <p class="text-muted">Yesterday</p>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="statistic-card-main-body">
+                                <p class="text-muted">Total Leads</p>
+                                <h5 class="card-title">Closed</h5>
+                            </div>
+                            <div class="statistic-card-subcontent set-size charts-container">
+                              <div class="pie-wrapper progress-95 style-2">
+                                <span class="label">320</span>
+                                <div class="pie">
+                                  <!-- <div class='dot'>
+                                    <span></span>
+                                  </div> -->
+                                  <div class="left-side half-circle"></div>
+                                  <div class="right-side half-circle"></div>
+                                </div>
+                                <div class="shadow"></div>
+                              </div>
+                              <div class="statistic-card-yesterday">  
+                                  <p class="text-muted">Yesterday</p>
+                              </div>
+                            </div>  
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- Statistics Ends -->
+            <!-- Plan Upgrade Starts -->
+            <div class="upgrade-plan">
+                <img src="img/logo2.jpg" alt="upgrade.jpg">
+                <button style="background-color:#ff9400; font-size: 10px; font-weight: bold;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                  <i class="fas fa-trophy" style="float: left; margin-top: 13px;"></i>Upgrade Plan
+                    </button>
+            </div>
+            <!-- Plan Upgrade Ends -->
+
+
+
+        </div>
+        <!-- right dashboard ends -->
+    
+    
+    
+    
+    
+    
+    </div>    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/app.js" async defer></script>
+    </body>
+</html>
